@@ -1,0 +1,49 @@
+/* Thiết lập cơ bản cho toàn bộ ứng dụng */
+.App {
+  text-align: center;
+}
+
+/* Định dạng cho trang chủ (Landing Page) */
+.landing-page {
+  background-image: url('https://unsplash.com'); /* Hình nền rừng cây hoặc vườn */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Nút "Get Started" */
+.get-started-button {
+  background-color: #4caf50; /* Màu xanh lá cây đặc trưng của Nursery */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.get-started-button:hover {
+  background-color: #45a049;
+}
+
+/* Các lớp CSS bổ trợ cho Layout */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divider {
+  width: 50px;
+  height: 4px;
+  background-color: #4caf50;
+  margin: 20px 0;
+}
